@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "428782190499",
+    "project_id": "chatopp-391d5",
+    "storage_bucket": "chatopp-391d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428782190499:android:00196e5c40f2c4430da416",
+        "android_client_info": {
+          "package_name": "com.example.newchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428782190499-6a9f2o80a5tona2gha391fouru6n7r9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTV7q6YJLDkxVvv0IAPAbEuT33ytAaE48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428782190499-6a9f2o80a5tona2gha391fouru6n7r9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
