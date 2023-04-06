@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     private fun updateUI(currentUser: FirebaseUser?) {
         if (currentUser != null) {
             // User is signed in, launch ChatActivity
-            startActivity(Intent(this, ChatActivity::class.java))
+            startActivity(Intent(this, homescreen::class.java))
             finish()
         } else {
             // User is not signed in, launch LoginActivity

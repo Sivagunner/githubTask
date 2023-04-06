@@ -42,7 +42,7 @@ class LoginActivity : AppCompatActivity() {
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
                         // If successful, go to the chat screen
-                        startActivity(Intent(this, ChatActivity::class.java))
+                        startActivity(Intent(this, homescreen::class.java))
                         finish()
                     } else {
                         Toast.makeText(this, "Authentication failed: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
